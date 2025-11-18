@@ -1,0 +1,53 @@
+NIH CHEST X-RAY DATASET SUMMARY
+========================================
+
+DATASET OVERVIEW:
+Total images: 5,606
+Total patients: 4,230
+Average images per patient: 1.33
+
+SPLIT DISTRIBUTION:
+Train: 3884 images (69.3%) from 2961 patients
+Validation: 578 images (10.3%) from 423 patients
+Test: 1144 images (20.4%) from 846 patients
+
+TARGET PATHOLOGY DISTRIBUTION:
+
+Atelectasis:
+  Train: 368 cases (9.5%)
+  Validation: 55 cases (9.5%)
+  Test: 85 cases (7.4%)
+
+Cardiomegaly:
+  Train: 95 cases (2.4%)
+  Validation: 11 cases (1.9%)
+  Test: 35 cases (3.1%)
+
+Effusion:
+  Train: 451 cases (11.6%)
+  Validation: 64 cases (11.1%)
+  Test: 129 cases (11.3%)
+
+DEMOGRAPHIC DISTRIBUTION:
+
+Age_Group:
+  Train: <40: 33.4% | 40-65: 54.4% | >65: 12.2%
+  Validation: <40: 36.7% | 40-65: 52.9% | >65: 10.4%
+  Test: <40: 34.9% | 40-65: 52.6% | >65: 12.5%
+
+Patient Gender:
+  Train: F: 44.3% | M: 55.7%
+  Validation: F: 43.6% | M: 56.4%
+  Test: F: 43.6% | M: 56.4%
+
+View Position:
+  Train: AP: 39.6% | PA: 60.4%
+  Validation: AP: 38.1% | PA: 61.9%
+  Test: AP: 39.8% | PA: 60.2%
+
+FAIRNESS ANALYSIS READY:
+- No patient overlap between splits
+- Full dataset used for robust training
+- Target pathologies labeled for analysis
+- Demographic metadata available
+- Ready for model development
